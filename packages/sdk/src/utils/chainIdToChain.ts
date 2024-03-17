@@ -8,19 +8,23 @@ import {
   optimism,
   arbitrum,
   optimismGoerli,
+  optimismSepolia,
   base,
   baseGoerli,
+  baseSepolia,
   lineaTestnet,
   linea,
   gnosis,
   zora,
-  zoraTestnet,
+  zoraSepolia,
+  zoraTestnet
 } from 'viem/chains'
 
 const enabledChains = {
   mainnet,
   goerli,
   optimismGoerli,
+  optimismSepolia,
   polygon,
   polygonMumbai,
   sepolia,
@@ -29,10 +33,12 @@ const enabledChains = {
   base,
   gnosis,
   baseGoerli,
+  baseSepolia,
   lineaTestnet,
   linea,
   zora,
-  zoraTestnet,
+  zoraSepolia,
+  zoraTestnet
 }
 
 /**
